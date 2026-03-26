@@ -28,5 +28,6 @@ Write-Host "🧹 Cleaning up local Terraform cache..."
 Remove-Item -Recurse -Force ".terraform" -ErrorAction SilentlyContinue
 Remove-Item -Force ".terraform.lock.hcl" -ErrorAction SilentlyContinue
 
+cd ..
 Write-Host ""
 Write-Host "✅ EKS Cluster and VPC destroyed and cleaned up successfully!"

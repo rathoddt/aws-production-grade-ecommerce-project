@@ -16,4 +16,5 @@ Run-Terraform "01_VPC_terraform-manifests"
 Write-Host "STEP-2: Create EKS Cluster"
 Run-Terraform "..\02_EKS_terraform-manifests"
 
+cd ..
 Write-Host "✅ Completed successfully!"
